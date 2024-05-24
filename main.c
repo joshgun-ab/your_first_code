@@ -1,9 +1,14 @@
+#include <stdio.h>
+
 int main()
 {
-  int i;
-  for (i = 0; i < 10; i++)
+  int i, j;
+  for (i = 0; i < 32; i++)
   {
-    printf("School\n");
+    for (j = 0; j < 10; j++)
+    {
+      printf("Hello School\n");
+    }
   }
   return 0;
 }
